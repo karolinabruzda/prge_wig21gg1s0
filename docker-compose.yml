@@ -1,0 +1,15 @@
+services:
+  node:
+    build:
+      context: .
+      dockerfile: docker/node/Dockerfile
+    image: "react-frontend"
+    container_name: "react_frontend"
+    volumes:
+      - ./config/node/frontend/src:/app/src
+    ports:
+      - 3000:3000
+    environment:
+      - CHOKEDIR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - REACT_APP_NAME=myapp
