@@ -1,0 +1,28 @@
+.services_top {
+}
+
+.services_bottomRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services_imageItem {
+  flex: 1 1 40%;
+  box-sizing: border-box;
+}
+
+.services_imageItem img {
+  width: 80%;
+  height: auto;
+}
+
+.services_bottomLeft {
+  width: 70vw;
+  background-color: blue;
+}
+
+.services_bottom {
+  display: flex;
+  height: 75vh;
+}
