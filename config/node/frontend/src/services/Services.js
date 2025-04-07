@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-
+import { Link } from "react-router-dom";
 import promocja_wat from "./promocja_wat.jpg";
 
 function Services() {
@@ -12,14 +12,18 @@ function Services() {
         <div className="services_bottomLeft">
           <div className="services_top">
             <h1 className="home_title">Dostępne usługi</h1>
-            <div className="services_buttons">
+          </div>
+          <div className="services_buttons">
+            <Link to="map">
               <button className="services_button" id="mapa">
                 MAPA
               </button>
+            </Link>
+            <Link to="militaryunits">
               <button className="services_button" id="lista">
                 WYKAZ LUB LISTA CZEGOŚ
               </button>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="services_bottomRight">

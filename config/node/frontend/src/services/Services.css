@@ -37,11 +37,10 @@
   border-color: transparent;
 }
 
-.services_buttons:hover {
+.services_button:hover {
   scale: 1.03;
   border-color: rgba(39, 108, 211, 0.5);
   color: white;
-  margin: 100px;
 }
 
 .services_buttons {
