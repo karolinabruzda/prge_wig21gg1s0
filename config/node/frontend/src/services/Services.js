@@ -12,6 +12,14 @@ function Services() {
         <div className="services_bottomLeft">
           <div className="services_top">
             <h1 className="home_title">Dostępne usługi</h1>
+            <div className="services_buttons">
+              <button className="services_button" id="mapa">
+                MAPA
+              </button>
+              <button className="services_button" id="lista">
+                WYKAZ LUB LISTA CZEGOŚ
+              </button>
+            </div>
           </div>
         </div>
         <div className="services_bottomRight">
