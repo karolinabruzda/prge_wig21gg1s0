@@ -1,4 +1,6 @@
 .services_top {
+  margin-top: 10vh;
+  margin-left: 7vw;
 }
 
 .services_bottomRight {
@@ -10,6 +12,7 @@
 .services_imageItem {
   flex: 1 1 40%;
   box-sizing: border-box;
+  margin-top: 10vh;
 }
 
 .services_imageItem img {
@@ -32,14 +35,15 @@
   width: 265px;
   height: 100px;
   font-size: 30px;
-  background-color: rgba(39, 108, 211, 0.5);
-  border-radius: 5px;
+  background-color: rgba(39, 211, 108, 0.5);
+  border-radius: 15px;
   border-color: transparent;
+  margin-right: 2vw;
 }
 
 .services_button:hover {
   scale: 1.03;
-  border-color: rgba(39, 108, 211, 0.5);
+  border-color: rgba(39, 211, 108, 0.5);
   color: white;
 }
 

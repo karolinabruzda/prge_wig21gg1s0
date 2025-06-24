@@ -1,7 +1,10 @@
 import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import promocja_wat from "./promocja_wat.jpg";
+import parkbabi from "./babipark.jpg";
+import parkbialo from "./bialopark.jpg";
+import parkbiebrza from "./biebrzapark.jpg";
+import parkbieszcza from "./bieszczapark.jpg";
 
 function Services() {
   return (
@@ -21,23 +24,23 @@ function Services() {
             </Link>
             <Link to="militaryunits">
               <button className="services_button" id="lista">
-                WYKAZ LUB LISTA CZEGOŚ
+                LISTA PARKÓW
               </button>
             </Link>
           </div>
         </div>
         <div className="services_bottomRight">
           <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
+            <img src={parkbabi} alt="" />
           </div>
           <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
+            <img src={parkbialo} alt="" />
           </div>
           <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
+            <img src={parkbiebrza} alt="" />
           </div>
           <div className="services_imageItem">
-            <img src={promocja_wat} alt="" />
+            <img src={parkbieszcza} alt="" />
           </div>
         </div>
       </div>
