@@ -1,0 +1,35 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Home.css";
+import zdjecie from "./ParkinarodowePL.png";
+
+function Home() {
+  return (
+    <div className="home">
+      {/* <div className="home_top">
+        <div>O projekcie</div>
+      </div> */}
+      <div className="home_bottom">
+        <div className="home_left">
+          <img className="home_logo" src={zdjecie} alt="logo" />
+        </div>
+        <div className="home_right">
+          <h1 className="home_title">
+            <span style={{ color: "rgba(24, 149, 74, 0.5)", opacity: 0.9 }}>
+              PARK
+            </span>
+            Portal
+          </h1>
+          <div className="home_subtitle">
+            Stona internetowa z interaktywną mapą Parków Narodowych w Polsce
+          </div>
+          <Link to="services">
+            <button className="home_button">WCHODZĘ!</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Home;

@@ -1,0 +1,55 @@
+<settings>
+  <id>SettingsInfoImpl-3bea5d75:19680e8611f:-7ff7</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-3bea5d75:19680e8611f:-7ff9</id>
+    <name>wat-geoservices</name>
+    <isolated>false</isolated>
+    <dateCreated>2025-04-29 09:39:55.413 UTC</dateCreated>
+    <dateModified>2025-04-29 09:43:01.903 UTC</dateModified>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCity>Alexandria</addressCity>
+    <addressCountry>Roman Empire</addressCountry>
+    <addressState>Egypt</addressState>
+    <addressType>Work</addressType>
+    <contactEmail>karolina.bruzda@student.wat.edu.pl</contactEmail>
+    <contactOrganization>wat</contactOrganization>
+    <contactPerson>Karolina</contactPerson>
+    <contactPosition>Chief Geographer</contactPosition>
+    <onlineResource>https://www.wat.edu.pl</onlineResource>
+    <welcome>wat</welcome>
+    <internationalAddress class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressCity class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressCountry class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressDeliveryPoint class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressPostalCode class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressState class="org.geotools.util.GrowableInternationalString"/>
+    <internationalAddressType class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactEmail class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactFacsimile class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactOrganization class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactPerson class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactPosition class="org.geotools.util.GrowableInternationalString"/>
+    <internationalContactVoice class="org.geotools.util.GrowableInternationalString"/>
+    <internationalOnlineResource class="org.geotools.util.GrowableInternationalString"/>
+    <internationalWelcome class="org.geotools.util.GrowableInternationalString"/>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>8</numDecimals>
+  <onlineResource>http://geoserver.org</onlineResource>
+  <verbose>false</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+  <showCreatedTimeColumnsInAdminList>false</showCreatedTimeColumnsInAdminList>
+  <showModifiedTimeColumnsInAdminList>false</showModifiedTimeColumnsInAdminList>
+  <useHeadersProxyURL>false</useHeadersProxyURL>
+</settings>

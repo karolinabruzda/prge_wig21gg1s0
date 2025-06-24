@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: docker/node/Dockerfile
-    image: "react-frontend"
-    container_name: "react_frontend"
+    image: "wat-react-frontend-image"
+    container_name: "wat-react-frontend-container"
     volumes:
       - ./config/node/frontend/src:/app/src
     ports:
@@ -13,3 +13,26 @@ services:
       - CHOKEDIR_USEPOLLING=true
       - WATCHPACK_POLLING=true
       - REACT_APP_NAME=myapp
+
+  geoserver:
+    build:
+      context: .
+      dockerfile: docker/geoserver/Dockerfile
+    image: "wat-geoserver-image"
+    container_name: "wat-geoserver-container"
+    ports:
+      - 9000:8080
+
+  postgis:
+    build:
+      context: .
+      dockerfile: docker/postgis/Dockerfile
+    image: "wat-postgis-image"
+    container_name: "wat-postgis-container"
+    environment:
+      POSTGRES_DB: wat_project
+      POSTGRES_USER: wat_user
+      POSTGRES_PASSWORD: wat_password
+      POSTGRES_PORT: 5432
+    ports:
+      - 65432:5432

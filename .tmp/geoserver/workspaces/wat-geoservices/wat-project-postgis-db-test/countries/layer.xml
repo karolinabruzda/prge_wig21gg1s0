@@ -1,0 +1,22 @@
+<layer>
+  <name>countries</name>
+  <id>LayerInfoImpl-3bea5d75:19680e8611f:-7ff2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-3bea5d75:19680e8611f:-7ff1</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3bea5d75:19680e8611f:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-29 09:52:18.529 UTC</dateCreated>
+  <dateModified>2025-05-13 10:35:23.303 UTC</dateModified>
+</layer>

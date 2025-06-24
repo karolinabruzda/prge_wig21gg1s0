@@ -1,0 +1,16 @@
+<layer>
+  <name>A02_Granice_powiatow</name>
+  <id>LayerInfoImpl--2464dafc:196c9919315:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2464dafc:196c9919315:-8000</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-13 12:14:43.979 UTC</dateCreated>
+</layer>
